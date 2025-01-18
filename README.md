@@ -1,2 +1,7 @@
-# local_streamlit_navigator
-快速启动多个本地Streamlit程序并显示端口
+### local_streamlit_navigator
+
+**快速启动多个本地Streamlit程序并显示端口**
+
+本程序用于启动当前目录下所有文件夹中的Streamlit程序并通过局域网地址进行导航，主要适用于有多个Streamlit项目的家庭服务器用户。
+
+本程序使用LLM辅助编写，由于尝试了几种在关闭时清除用于记录程序启动的地址的文件的方法均不成功，就放弃了这一特性。关闭时需要删除最后一个文件夹中的streamlit_apps_config.json 。
